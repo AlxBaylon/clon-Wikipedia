@@ -5,7 +5,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
     width: 100%;
@@ -62,10 +62,12 @@ header{
     margin-right: 8px;
     border-style: none;
     outline: none;
+    color: none;
     appearance: none; /*Aquí le decimos al navegador que le quite al select todos los estilos por defecto a select*/
 }
 .form__search-input .language-select select::-ms-expand {
     display: none;
+
 }
 .form__search-input .language-select i{
     position: absolute;
@@ -85,4 +87,35 @@ header{
     padding-bottom: 2px;
     padding-top: -3px;
     outline-style: none;
+}
+.articles-languages{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.articles-languages__containers{
+    display: block;
+    width: calc(100% / 3);
+    height: 6.4rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.articles-languages__containers a{
+    text-decoration: none;
+    color: #36c;
+}
+.articles-languages__containers a strong{
+    display: block;
+    margin-bottom: 4px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+.articles-languages__containers a small{
+    color:#54595d;
+    font-size: 1.3rem;
+    line-height: 1.4;
 }
