@@ -83,7 +83,6 @@ main{
 }
 .form__search-input .language-select select::-ms-expand {
     display: none;
-
 }
 .form__search-input .language-select i{
     position: absolute;
