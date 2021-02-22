@@ -198,3 +198,23 @@ main hr{
     border: none;
     border-bottom: 1px solid #c8ccd1;
 }
+footer{
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.footer-sidebar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-sidebar .wikimedia-banner__icon, .footer-sidebar .wikimedia-banner__text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.footer-sidebar .wikimedia-banner__text p{
+    font-size: 1.3rem;
+    color: #54595d;
+}
