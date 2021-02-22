@@ -208,13 +208,25 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
-.footer-sidebar .wikimedia-banner__icon, .footer-sidebar .wikimedia-banner__text{
+.footer-sidebar .wikimedia-banner__icon, .footer-sidebar .wikimedia-banner__text, .footer-sidebar.app-badges p, .app-badges__wikipedia-app{
     width: 100%;
     height: auto;
     text-align: center;
     padding-top: 15px;
 }
-.footer-sidebar .wikimedia-banner__text p{
+.footer-sidebar .wikimedia-banner__text p, .footer-sidebar.app-badges p, .app-badges__wikipedia-app strong{
     font-size: 1.3rem;
     color: #54595d;
+}
+.app-badges__wikipedia-app--icon{
+    /*La propiedad de background-image requiere de un display: inline-block*/
+    display: inline-block;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    background-image: url("../assets/icons/w-wikipedia-icon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
