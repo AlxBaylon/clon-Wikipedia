@@ -271,13 +271,15 @@ footer a{
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .other-project{
     width: 50%;
+    height: 9rem;
 }
 a.other-project__link{
     display: flex;
+    align-items: center;
     width: 100%;
     white-space: nowrap;
 }
@@ -285,6 +287,8 @@ a.other-project__link{
     display: inline-block;
     width: 50px;
     height: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 .other-project__link--icon i{
     display: inline-block;
