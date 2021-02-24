@@ -203,6 +203,7 @@ footer{
     flex-wrap: wrap;
     padding-right: 6px;
     padding-left: 6px;
+    margin-bottom: 50px;
     font-size: 1.3rem;
 }
 footer a{
@@ -303,14 +304,37 @@ a.other-project__link{
 }
 .other-project__link--text{
     display: inline-block;
-    width: 100%;
+    width: 65%;
     vertical-align: middle;
 }
 .other-project__link--text span{
     display: block;
-    width: 100%;
     white-space: normal;
 }
 .other-project__link--text span.paragraph{
     color: #54595d;
+}
+.site-license{
+    color: #54595d;
+    text-align: center;
+    margin: auto 5px 15px;
+    padding: 5px;
+    font-size: 1.5rem;
+    line-height: 19.5px;
+}
+.site-license a{
+    outline: 0;
+    color: #36c;
+    text-decoration: none;
+}
+.site-license small::after{
+    content: "\2022";
+    font-size: 13px;
+    font-size: 1.rem;
+    line-height: inherit;
+    margin-left: 8px;
+    margin-left: .8rem;
+    margin-right: 5px;
+    margin-right: .5rem;
+    display: inline-block;
 }
