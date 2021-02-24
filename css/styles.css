@@ -199,8 +199,14 @@ main hr{
     border-bottom: 1px solid #c8ccd1;
 }
 footer{
+    display: flex;
+    flex-wrap: wrap;
     padding-right: 6px;
     padding-left: 6px;
+    font-size: 1.3rem;
+}
+footer a{
+    color: #36c;
 }
 .footer-sidebar{
     width: 100%;
@@ -259,4 +265,48 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.footer-other-projects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+}
+.other-project{
+    width: 50%;
+}
+a.other-project__link{
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+}
+.other-project__link--icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.other-project__link--icon i{
+    display: inline-block;
+    position: relative;
+    width: 48px;
+    height: 48px;
+    vertical-align: middle;
+    background-image: url('../assets/icons/wikimedia-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.other-project__link--text{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+.other-project__link--text span{
+    display: block;
+    width: 100%;
+    white-space: normal;
+}
+.other-project__link--text span.paragraph{
+    color: #54595d;
 }
