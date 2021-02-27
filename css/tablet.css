@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.wikipedia-logo{
+    order: 1;
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 109px);
+}
+.wikipedia-logo img{
+    width: auto;
+    height: 190px;
+}
+.wikipedia-title{
+    order: 1;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles-languages{
+    max-width: 546px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.articles-languages__containers{
+    width: calc(100% / 2);
+    height: 55px;
+}
+.articles-languages__containers.JP, .articles-languages__containers.IT{
+    padding-right: 95px;
+}
+.articles-languages__containers.RU{
+    padding-right: 125px;
+}
+.articles-languages__containers.FR{
+    padding-left: 125px;
+}
+.articles-languages__containers.DE, .articles-languages__containers.CH{
+    padding-left: 95px;
+}
+.search-container{
+    order: 1;
+}
+.languages-button-wraper{
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 580px;
+}
+main hr{
+    order: 3;
+}
