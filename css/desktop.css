@@ -1,0 +1,37 @@
+footer{
+    position: relative;
+    height: 450px;
+}
+.footer-other-projects{
+    width: 65%;
+    margin-left: 35%;
+    order: 1;
+}
+.footer-sidebar{
+    width: 30%;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
+.footer-sidebar.app-badges{
+    top: 140px;
+}
+.footer-sidebar .wikimedia-banner__icon{
+    width: 23%;
+}
+.footer-sidebar .wikimedia-banner__text{
+    width: 74%;
+    text-align: left;
+}
+
+.app-badges__wikipedia-app strong{
+    margin-left: calc(23% - 38px);
+} 
+.footer-sidebar.app-badges p{
+    width: 74%;
+    margin-left: 23%;
+    text-align: left;
+}
+.footer-sidebar.app-badges ul{
+    margin-top: 15px;
+}
